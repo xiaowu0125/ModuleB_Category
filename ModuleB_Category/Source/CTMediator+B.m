@@ -11,7 +11,7 @@
 
 - (UIViewController *)B_viewControllerWithContentText:(NSString *)contentText {
 
-//    1.0.1
+    // 1.0.2
     NSMutableDictionary *params = [[NSMutableDictionary alloc] init];
     params[@"contentText"] = contentText;
     return [self performTarget:@"B" action:@"viewController" params:params shouldCacheTarget:NO];
