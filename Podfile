@@ -4,8 +4,8 @@
 source 'https://github.com/CocoaPods/Specs.git'
 source 'https://github.com/xiaowu0125/PrivateRepo.git'
 
-use_frameworks!
-use_modular_headers!
+# use_frameworks!
+# use_modular_headers!
 
 target 'ModuleB_Category' do
 
